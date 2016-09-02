@@ -8,19 +8,24 @@ body {
     padding: 0;
     width: 100%;
     border-radius: 2%;
+    left: 28%;
+    right: 28%;
 }
 
  header {
     position: relative;
+    float: center;
     top:5%;
-    left: 25%;
-    right:25%;
+    left: 28%;
+    right: 28%;
     padding: 0px;
     box-sizing: border-box;
     display: inline-block;
     margin: 0 auto;
-    width: 90%;
-    z-index: 1;
+    width: 50%;
+  /*  z-index: 1;*/
+/*    width: 430px;*/
+    height: 100%;
 }
 
 .intro {
@@ -45,6 +50,7 @@ body {
 .end {
   font-size: 1rem;
   font-style: italic;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .start {
@@ -67,10 +73,11 @@ body {
 
 
 .wrapper {
-  width: 430px;
+  position: center;
+  width: 50%;
   margin: 0 auto;
   height: 100%;
-  padding-top: 60px;
+  padding-top: 1%;
 }
 
 #trivia {
