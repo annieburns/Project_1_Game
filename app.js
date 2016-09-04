@@ -6,9 +6,16 @@ window.onload = function() {
 
     function removeParaFromDom(incomingNode) {
       incomingNode.addEventListener('click', function(e) {
-          this.remove();   //you could ALSO do instead: e.target.remove();
+          this.remove();
+
       });
-    };
+  };
+
+
+// let startGame = document.getElementsByClassName("start").onclick
+//     showQuestion(current);
+//     showAnswers(current);
+//   }
 
 /// NEED TO INSERT AN EVENT LISTENER TO BASICALLY SAY WHEN ABOVE IS EXECUTED BELOW CAN BE SEEN
 /// OR IN OTHER WORDS THE GAME BEGINS
@@ -29,7 +36,11 @@ window.onload = function() {
     triviaQuestions = {
         'What is Elevens favorite Food?' : ['A.  Eggo Waffles', 'B.  Jello pudding', 'C.  French Fries', 0],
         'Where does the story take place?' : ['A.  Michigan', 'B.  Indiana' , 'C.  Nebraska', 1],
-        'Who has a secret crush on Eleven?' : ['A.  Will', 'B.  Mike', 'C.  Lucas', 1]
+        'Who has a secret crush on Eleven?' : ['A.  Will', 'B.  Mike', 'C.  Lucas', 1],
+        'Who disappeared at party at Steve Harringtons house?' : ['A.  Nancy', 'B.  Joyce', 'C.  Barb', 2],
+        'Who is the evil antagonist responsible for the top secret experiments that lead to the diappearances and opening up this dark underworld?' : ['A.  Dr. Fairchild', 'B.  Dr. Burns', 'C.  Dr. Brenner', 2],
+        'What game were Will, Mike, Dustin and Lucas playing the night Will disapperared?': ['A.  Ouija', 'B.  Dungeons and Dragons', 'C.  Vampire Underground', 1],
+        'Eleven can use her telepathic powers to locate people, and she must do this to find Will in the end of the season. What did they make in the high school gym to help connect Eleven to the Upside Down world?' : ['A.  Sensory Deprivation pool', 'B.  Time Machine', 'C. Worm hole', 0]
   };
 
 // function showQuestion(curr) loads all the question into the questionView.  It shows the current question based on the 'current'-variable. the 'current'-variable was already set to 0 above to start

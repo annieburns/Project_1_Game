@@ -31,6 +31,7 @@ body {
 .intro {
   width: 50%;
   margin: 0 auto;
+  padding: 0px;
 }
 
 .goal {
@@ -38,12 +39,14 @@ body {
   color:#F6201D;
   font-family: 'Roboto Condensed', sans-serif;
   font-style: oblique;
+  padding: 0px;
 }
 
 .about {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.2rem;
   font-style: oblique;
+  padding: 0px;
 
 }
 
@@ -51,6 +54,7 @@ body {
   font-size: 1rem;
   font-style: italic;
   font-family: 'Roboto Condensed', sans-serif;
+  padding: 0px;
 }
 
 .start {
@@ -61,6 +65,7 @@ body {
   border-color: #cccccc;
   font-family: 'Roboto Condensed', sans-serif;
   font-style: oblique;
+  padding: 0px;
 }
 
 .start:hover,
@@ -69,6 +74,7 @@ body {
   color: white;
   background-color: #F6201D;
   border-color: #ac2925;
+  padding: 0px;
 }
 
 
@@ -78,6 +84,7 @@ body {
   margin: 0 auto;
   height: 100%;
   padding-top: 1%;
+
 }
 
 #trivia {
