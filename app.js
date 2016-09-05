@@ -93,7 +93,7 @@ window.onload = function() {
         showQuestion(current);
         showAnswers(current);
       } else {
-        questionView.innerHTML = 'Done';
+        questionView.innerHTML = 'Game Over';
         answerView.innerHTML = '';
       }
 
