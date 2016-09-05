@@ -93,12 +93,13 @@ window.onload = function() {
         showQuestion(current);
         showAnswers(current);
       } else {
-        questionView.innerHTML = 'Game Over';
+        questionView.innerHTML = 'GAME OVER!  If you have more Eggos than Nosebleeds that means you Win, otherwise you blew it...';
         answerView.innerHTML = '';
       }
 
     };
   }
+
 
  //   function addScoreBoard(bool) { adds a div element to the page which is used to see if it was correct or false
   function addscoreBoard(bool) {
@@ -121,4 +122,14 @@ window.onload = function() {
   showAnswers(current);
 
 };
+
+// function scoreValue(x) {
+//   let posScore = document.getElementsByClassName('correct'),
+//       if(posScore ='correct') {
+//         posScore +=1
+//       }
+// }
+// }
+
+
 

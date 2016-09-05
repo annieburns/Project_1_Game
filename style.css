@@ -149,7 +149,7 @@ h2 {
 }
 
 .correct {
-  background-image: url('waffle.png');
+  background-image: url('images/waffle.png');
   border-radius: 20%;
   background-repeat: no-repeat;
   font-family: 'Roboto Condensed', sans-serif;
@@ -166,7 +166,7 @@ h2 {
 
 
 .false {
-  background-image: url('eleven.png');
+  background-image: url('images/eleven.png');
   background-repeat: no-repeat;
   font-family: 'Roboto Condensed', sans-serif;
   font-style: oblique;
